@@ -1,3 +1,5 @@
+/* Element selector */
+
 h1{
     color: red;
 }
@@ -9,4 +11,30 @@ h1{
 }
 .head{
     color: blue;
+}
+/* pseudeo selector */
+
+h2:hover{
+    color: red;
+}
+
+.un-order:first-child{
+    color: yellow;
+}
+.un-order:last-child{
+   color: red;
+}
+
+.un-order:nth-child(3){
+    color: grey;
+
+}
+#google-link:link{
+    color: grey;
+}
+#google-link:visited{
+    color: burlywood;
+}
+#google-link:hover{
+    background-color: crimson;
 }
