@@ -1,5 +1,10 @@
 /* Element selector */
-
+/* selector{property:value
+}
+ */
+body{
+    background-color: rgb(123, 168, 232);
+}
 h1{
     color: red;
 }
@@ -57,5 +62,18 @@ h2:hover{
 
 h2[class=subtitle]{
     background-color: yellow;
+   }
+
+   /* COLORS */
+   /* color--> name, Id,rgb() */
    
-}
+   .container{
+       height: 400px;
+       width: 70%;
+       
+       background: url("https://cache.desktopnexus.com/thumbseg/2361/2361449-bigthumbnail.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-color:rgb(131, 127, 199);
+
+   }
