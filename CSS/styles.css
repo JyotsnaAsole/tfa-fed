@@ -6,6 +6,9 @@ h1{
 #heading-one{
     color: red;
 }
+#heading-one{
+    background-color: cadetblue;
+}
 .subtitle{
     color: green;
 }
@@ -37,4 +40,22 @@ h2:hover{
 }
 #google-link:hover{
     background-color: crimson;
+}
+
+.tfa:link{
+    color:darkgoldenrod
+}
+
+.tfa:visited{
+    color: grey;
+}
+
+/* Attribute Selector */
+/* element [attribute:value]{
+
+} */
+
+h2[class=subtitle]{
+    background-color: yellow;
+   
 }
