@@ -1,15 +1,27 @@
 /* Element selector */
-/* selector{property:value
+/* selector {property:value
 }
  */
 body{
-    background:linear-gradient(to bottom,rgba(123,168,232,1),rgba(123,168,232,0.3))
-}
-h1{
-    color: red;
-}
+   background: linear-gradient(to bottom, rgba(123,168,232,1),rgba(123,168,232,0.3));
+    /* font: size 1m; */
+    /* font: size 20px; */
+    font-size: 1.1em;
+    color: rgb(43,46,44);
+    text-transform:none;
+    text-align: justify;
+    font-family: 'Quicksand',sans-serif;
+    
+
+    /* font-family:'Times New Roman' */
+  } 
+ h1{
+    color:whitesmoke;
+    text-align: center; 
+    font-family: 'Noto Sans SC', sans-serif;
+   }
 #heading-one{
-    color: red;
+    color: grey;
 }
 #heading-one{
     background-color: cadetblue;
@@ -18,7 +30,7 @@ h1{
     color: green;
 }
 .head{
-    color: blue;
+    color: black
 }
 /* pseudeo selector */
 
@@ -60,7 +72,7 @@ h2:hover{
 
 } */
 
-h2[class=subtitle]{
+h2[class=subtitle]{      
     background-color: yellow;
    }
 
@@ -91,5 +103,9 @@ h2[class=subtitle]{
   .container-three{
       height: 400px;
       width: 70%;
-      background: radial-gradient(red,blue,green,yellow,red,green,blue,yellow);
+      background: radial-gradient(circle,red,blue,green,yellow,red,green,blue,yellow);
   }
+
+  /* UNITS OF MEASUREMENTS */
+
+/* cm,mm,px,rem ,vh,vw, */
