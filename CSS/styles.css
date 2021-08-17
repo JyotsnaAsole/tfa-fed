@@ -109,3 +109,24 @@ h2[class=subtitle]{
   /* UNITS OF MEASUREMENTS */
 
 /* cm,mm,px,rem ,vh,vw, */
+
+/* TEXT FONTS */
+
+/* BOX MODEL */
+
+#image-one{
+    height: 300px;
+    width: 70vw;
+
+    /* border: thikness style color */
+    border: 5px solid black;
+
+    /* padding :top right bottom left */
+    padding: 15px ;
+    /* padding: 5px 10px 15px 20px; */
+    
+    /* margin:80px 40px; */
+    /* margin: auto; */
+}
+
+
