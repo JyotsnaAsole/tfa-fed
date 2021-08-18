@@ -8,9 +8,12 @@ body{
     /* font: size 20px; */
     font-size: 1.1em;
     color: rgb(43,46,44);
+
     text-transform:none;
     text-align: justify;
+
     font-family: 'Quicksand',sans-serif;
+
     
 
     /* font-family:'Times New Roman' */
@@ -137,4 +140,30 @@ h2[class=subtitle]{
 .my-form-item{
     display:block;
 }
+/* FLEXBOXES */
+
+.container {
+    background-color: rgba(123,168,232,1);
+    padding: 10px;
+    margin-top: 10px;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+
+    align-items: center;
+}
+ .container-item {
+     background:rgba(68,138,81,1);
+     /* border-radius: 100%; */
+     color: white;
+     font-size: 25px;
+     text-align: center;
+
+     width: 70px;
+     line-height: 50px;
+     margin: 10px;
+ }
 
